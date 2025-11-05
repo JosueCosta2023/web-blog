@@ -1,0 +1,106 @@
+/* ...existing code... */
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: 
+        linear-gradient(rgba(34,34,59,0.85), rgba(34,34,59,0.85)),
+        url('https://preview.redd.it/some-trippy-wallpapers-generated-with-v0-8ysbf1ow0fma1.jpg?width=1080&crop=smart&auto=webp&s=39be6e70e29a7ebf40bdac11246368a4d1a86e02') center center/cover no-repeat;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+.hero-content h1 {
+    color: var(--color-text-light);
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.search-bar {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 1.5rem auto;
+    background: var(--color-surface);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(34,34,59,0.08);
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    background: transparent;
+    color: var(--color-text);
+}
+
+.search-bar button {
+    background: var(--color-accent);
+    color: var(--color-text-light);
+    border: none;
+    padding: 0 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-weight: 500;
+}
+
+.search-bar button:hover {
+    background: var(--color-accent-dark);
+}
+
+.tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.tag {
+    background: var(--color-secondary-light);
+    color: var(--color-primary);
+    padding: 0.5rem 1.2rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+    box-shadow: 0 1px 4px rgba(34,34,59,0.06);
+}
+
+.tag:hover {
+    background: var(--color-accent);
+    color: var(--color-text-light);
+    transform: scale(1.08);
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .hero-content h1 {
+        font-size: 1.3rem;
+    }
+    .search-bar {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .search-bar button {
+        width: 100%;
+        padding: 1rem 0;
+    }
+}

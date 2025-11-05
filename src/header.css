@@ -1,0 +1,61 @@
+/* ...existing code... */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: var(--color-primary);
+    color: var(--color-text-light);
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav {
+    display: flex;
+    gap: 2rem;
+}
+.nav-link {
+    color: var(--color-text-light);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+.nav-link:hover {
+    color: var(--color-accent);
+}
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+@media (max-width: 768px) {
+    .nav {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: var(--color-primary);
+        flex-direction: column;
+        width: 200px;
+        padding: 1rem;
+        gap: 1rem;
+        display: none;
+    }
+    .nav.active {
+        display: flex;
+    }
+    .hamburger {
+        display: flex;
+    }
+}
+/* ...existing code... */

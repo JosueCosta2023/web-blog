@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +9,67 @@
     <meta name="author" content="Josué Costa">
     <meta name="keywords" content="blog, tecnologia, AI, tutoriais, novidades, newsleaders">
     <link rel="stylesheet" href="./src/GlobalStyle.css">
+    <link rel="stylesheet" href="./src/header.css">
+    <link rel="stylesheet" href="./src/hero.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico" type="src/image/x-icon">
 
     <!-- OpenGraph -->
-     <meta property="og:title" content="Blog Sobre Inteligencia Artificial">
-     <meta property="og:description" content="Blog pessoal com dicas, tutoriais e novidades sobre tecnologia.">
-     <meta property="og:type" content="website">
-     <meta property="og:url" content="">
-     <meta property="og:image" content="">
-     <meta property="og:locale" content="pt-br">
-     <meta property="og:site-name" content="AI - Inteligencia Artificial">
+    <meta property="og:title" content="Blog Sobre Inteligencia Artificial">
+    <meta property="og:description" content="Blog pessoal com dicas, tutoriais e novidades sobre tecnologia.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:locale" content="pt-br">
+    <meta property="og:site-name" content="AI - Inteligencia Artificial">
 </head>
+
 <body>
-    
+    <header class="header">
+        <div class="logo">🤖 Blog AI</div>
+        <nav class="nav" id="nav">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#posts" class="nav-link">Posts</a>
+            <a href="#contato" class="nav-link">Quem somo nós</a>
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main id="app">
+        <!-- Conteúdo SPA será carregado aqui -->
+        <!-- Adicione dentro da tag <main id="app"> do seu index.html -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Descubra conteúdos sobre Inteligência Artificial</h1>
+                <form class="search-bar">
+                    <input type="text" placeholder="Pesquisar artigos, tutoriais, notícias..." aria-label="Pesquisar">
+                    <button type="submit">Buscar</button>
+                </form>
+                <div class="tag-cloud">
+                    <span class="tag">Machine Learning</span>
+                    <span class="tag">Deep Learning</span>
+                    <span class="tag">NLP</span>
+                    <span class="tag">Redes Neurais</span>
+                    <span class="tag">Chatbots</span>
+                    <span class="tag">Visão Computacional</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Automação</span>
+                    <span class="tag">Big Data</span>
+                    <span class="tag">Robótica</span>
+                </div>
+            </div>
+        </section>
+        <section class="posts" id="posts">
+        </section>
+    </main>
+
+    <script src="./src/js/script.js"></script>
 </body>
+
 </html>
