@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "imagem": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
+        "data": "05/11/2025",
+        "titulo": "Como a IA está mudando o mundo",
+        "resumo": "Descubra como a inteligência artificial está transformando diversos setores e impactando o nosso dia a dia de forma inovadora e surpreendente.",
+        "autor": "Josué Costa",
+        "temas": ["IA", "Tecnologia", "Inovação"]
+    },
+    {
+        "id": 2,
+        "imagem": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+        "data": "04/11/2025",
+        "titulo": "Redes Neurais: O que são e como funcionam",
+        "resumo": "Entenda o conceito de redes neurais, suas aplicações práticas e como elas revolucionam o campo da inteligência artificial.",
+        "autor": "Maria Silva",
+        "temas": ["Redes Neurais", "Deep Learning", "AI"]
+    }
+]
