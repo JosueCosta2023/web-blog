@@ -16,5 +16,257 @@
         "resumo": "Entenda o conceito de redes neurais, suas aplicações práticas e como elas revolucionam o campo da inteligência artificial.",
         "autor": "Maria Silva",
         "temas": ["Redes Neurais", "Deep Learning", "AI"]
+    },
+    {
+        "id": 3,
+        "imagem": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80",
+        "data": "03/11/2025",
+        "titulo": "Machine Learning: O básico para iniciantes",
+        "resumo": "Aprenda os conceitos fundamentais de machine learning e como começar a criar seus próprios modelos de IA.",
+        "autor": "Carlos Souza",
+        "temas": ["Machine Learning", "IA", "Educação"]
+    },
+    {
+        "id": 4,
+        "imagem": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=400&q=80",
+        "data": "02/11/2025",
+        "titulo": "Aplicações de IA na medicina moderna",
+        "resumo": "Veja como a inteligência artificial está revolucionando diagnósticos, tratamentos e pesquisas médicas.",
+        "autor": "Ana Paula",
+        "temas": ["IA", "Medicina", "Saúde"]
+    },
+    {
+        "id": 5,
+        "imagem": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+        "data": "01/11/2025",
+        "titulo": "Chatbots inteligentes: Como funcionam?",
+        "resumo": "Descubra como os chatbots baseados em IA estão mudando o atendimento ao cliente e otimizando processos.",
+        "autor": "Lucas Lima",
+        "temas": ["Chatbots", "IA", "Automação"]
+    },
+    {
+        "id": 6,
+        "imagem": "https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=400&q=80",
+        "data": "31/10/2025",
+        "titulo": "Visão Computacional: O que é e onde usar",
+        "resumo": "Entenda como a visão computacional permite que máquinas interpretem imagens e vídeos como humanos.",
+        "autor": "Fernanda Dias",
+        "temas": ["Visão Computacional", "IA", "Tecnologia"]
+    },
+    {
+        "id": 7,
+        "imagem": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=80",
+        "data": "30/10/2025",
+        "titulo": "Processamento de Linguagem Natural (NLP)",
+        "resumo": "Saiba como a IA entende, interpreta e gera linguagem humana em diversas aplicações.",
+        "autor": "Rafael Torres",
+        "temas": ["NLP", "IA", "Linguagem"]
+    },
+    {
+        "id": 8,
+        "imagem": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+        "data": "29/10/2025",
+        "titulo": "IA na Indústria 4.0",
+        "resumo": "Descubra como a inteligência artificial está otimizando processos industriais e aumentando a produtividade.",
+        "autor": "Juliana Alves",
+        "temas": ["IA", "Indústria", "Automação"]
+    },
+    {
+        "id": 9,
+        "imagem": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
+        "data": "28/10/2025",
+        "titulo": "Ética e desafios da IA",
+        "resumo": "Quais são os principais dilemas éticos e desafios enfrentados no desenvolvimento de inteligência artificial?",
+        "autor": "Pedro Henrique",
+        "temas": ["IA", "Ética", "Sociedade"]
+    },
+    {
+        "id": 10,
+        "imagem": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+        "data": "27/10/2025",
+        "titulo": "IA e o futuro do trabalho",
+        "resumo": "Como a automação e a inteligência artificial estão transformando o mercado de trabalho e as profissões.",
+        "autor": "Marina Rocha",
+        "temas": ["IA", "Trabalho", "Futuro"]
+    },
+    {
+        "id": 11,
+        "imagem": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80",
+        "data": "26/10/2025",
+        "titulo": "Redes neurais convolucionais explicadas",
+        "resumo": "Aprenda como funcionam as CNNs e por que são tão importantes para reconhecimento de imagens.",
+        "autor": "Bruno Martins",
+        "temas": ["Redes Neurais", "CNN", "Visão Computacional"]
+    },
+    {
+        "id": 12,
+        "imagem": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=400&q=80",
+        "data": "25/10/2025",
+        "titulo": "IA em carros autônomos",
+        "resumo": "Veja como a inteligência artificial está tornando possível a condução autônoma e segura de veículos.",
+        "autor": "Patrícia Gomes",
+        "temas": ["IA", "Carros Autônomos", "Transporte"]
+    },
+    {
+        "id": 13,
+        "imagem": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+        "data": "24/10/2025",
+        "titulo": "Big Data e IA: Uma parceria poderosa",
+        "resumo": "Entenda como o big data potencializa os algoritmos de inteligência artificial em grandes empresas.",
+        "autor": "Eduardo Silva",
+        "temas": ["Big Data", "IA", "Negócios"]
+    },
+    {
+        "id": 14,
+        "imagem": "https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=400&q=80",
+        "data": "23/10/2025",
+        "titulo": "IA na educação: Personalização do ensino",
+        "resumo": "Descubra como a IA está ajudando a criar experiências de aprendizado personalizadas para estudantes.",
+        "autor": "Camila Freitas",
+        "temas": ["IA", "Educação", "Personalização"]
+    },
+    {
+        "id": 15,
+        "imagem": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=80",
+        "data": "22/10/2025",
+        "titulo": "Robótica e IA: O futuro das máquinas inteligentes",
+        "resumo": "Veja como a integração entre robótica e IA está criando máquinas cada vez mais autônomas.",
+        "autor": "Thiago Ramos",
+        "temas": ["Robótica", "IA", "Tecnologia"]
+    },
+    {
+        "id": 16,
+        "imagem": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
+        "data": "21/10/2025",
+        "titulo": "IA generativa: Criando arte e música",
+        "resumo": "Explore como algoritmos de IA estão sendo usados para criar obras de arte e composições musicais.",
+        "autor": "Larissa Melo",
+        "temas": ["IA Generativa", "Arte", "Música"]
+    },
+    {
+        "id": 17,
+        "imagem": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+        "data": "20/10/2025",
+        "titulo": "IA e segurança cibernética",
+        "resumo": "Descubra como a inteligência artificial está sendo usada para detectar ameaças e proteger sistemas digitais.",
+        "autor": "André Farias",
+        "temas": ["IA", "Segurança", "Cibersegurança"]
+    },
+    {
+        "id": 18,
+        "imagem": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80",
+        "data": "19/10/2025",
+        "titulo": "Assistentes virtuais: O que esperar do futuro",
+        "resumo": "Veja como os assistentes virtuais baseados em IA estão evoluindo e facilitando o nosso dia a dia.",
+        "autor": "Beatriz Cunha",
+        "temas": ["Assistentes Virtuais", "IA", "Futuro"]
+    },
+    {
+        "id": 19,
+        "imagem": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=400&q=80",
+        "data": "18/10/2025",
+        "titulo": "IA e sustentabilidade ambiental",
+        "resumo": "Saiba como a inteligência artificial está ajudando a monitorar e preservar o meio ambiente.",
+        "autor": "Gabriel Nunes",
+        "temas": ["IA", "Sustentabilidade", "Meio Ambiente"]
+    },
+    {
+        "id": 20,
+        "imagem": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+        "data": "17/10/2025",
+        "titulo": "Deep Learning: O que é e como funciona",
+        "resumo": "Entenda os princípios do deep learning e como ele está revolucionando a inteligência artificial.",
+        "autor": "Renata Lopes",
+        "temas": ["Deep Learning", "IA", "Tecnologia"]
+    },
+    {
+        "id": 21,
+        "imagem": "https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=400&q=80",
+        "data": "16/10/2025",
+        "titulo": "IA em finanças: Algoritmos que investem",
+        "resumo": "Descubra como a IA está sendo usada para análise de investimentos e tomada de decisões financeiras.",
+        "autor": "Fábio Castro",
+        "temas": ["IA", "Finanças", "Investimentos"]
+    },
+    {
+        "id": 22,
+        "imagem": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=80",
+        "data": "15/10/2025",
+        "titulo": "IA e reconhecimento facial",
+        "resumo": "Veja como a inteligência artificial está por trás dos sistemas modernos de reconhecimento facial.",
+        "autor": "Sofia Almeida",
+        "temas": ["IA", "Reconhecimento Facial", "Segurança"]
+    },
+    {
+        "id": 23,
+        "imagem": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
+        "data": "14/10/2025",
+        "titulo": "IA e criatividade: Limites e possibilidades",
+        "resumo": "Explore até onde a inteligência artificial pode chegar na criação de ideias e soluções inovadoras.",
+        "autor": "Otávio Pires",
+        "temas": ["IA", "Criatividade", "Inovação"]
+    },
+    {
+        "id": 24,
+        "imagem": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+        "data": "13/10/2025",
+        "titulo": "IA e jogos digitais",
+        "resumo": "Descubra como a IA está sendo usada para criar experiências de jogos mais inteligentes e desafiadoras.",
+        "autor": "Isabela Teixeira",
+        "temas": ["IA", "Jogos", "Entretenimento"]
+    },
+    {
+        "id": 25,
+        "imagem": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80",
+        "data": "12/10/2025",
+        "titulo": "IA e análise de sentimentos",
+        "resumo": "Veja como a inteligência artificial pode identificar emoções em textos, áudios e vídeos.",
+        "autor": "Vinícius Prado",
+        "temas": ["IA", "Sentimentos", "NLP"]
+    },
+    {
+        "id": 26,
+        "imagem": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=400&q=80",
+        "data": "11/10/2025",
+        "titulo": "IA e agricultura de precisão",
+        "resumo": "Saiba como a IA está ajudando agricultores a aumentar a produtividade e reduzir custos.",
+        "autor": "Letícia Moura",
+        "temas": ["IA", "Agricultura", "Tecnologia"]
+    },
+    {
+        "id": 27,
+        "imagem": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+        "data": "10/10/2025",
+        "titulo": "IA e tradução automática",
+        "resumo": "Descubra como a inteligência artificial está tornando as traduções automáticas mais precisas.",
+        "autor": "Ricardo Tavares",
+        "temas": ["IA", "Tradução", "NLP"]
+    },
+    {
+        "id": 28,
+        "imagem": "https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=400&q=80",
+        "data": "09/10/2025",
+        "titulo": "IA e personalização de marketing",
+        "resumo": "Veja como empresas usam IA para criar campanhas de marketing personalizadas e eficientes.",
+        "autor": "Amanda Reis",
+        "temas": ["IA", "Marketing", "Negócios"]
+    },
+    {
+        "id": 29,
+        "imagem": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=80",
+        "data": "08/10/2025",
+        "titulo": "IA e reconhecimento de voz",
+        "resumo": "Entenda como a inteligência artificial está por trás dos assistentes de voz e sistemas de transcrição.",
+        "autor": "Felipe Duarte",
+        "temas": ["IA", "Reconhecimento de Voz", "NLP"]
+    },
+    {
+        "id": 30,
+        "imagem": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
+        "data": "07/10/2025",
+        "titulo": "IA e saúde mental: Possibilidades e limites",
+        "resumo": "Descubra como a IA pode auxiliar no diagnóstico e tratamento de questões relacionadas à saúde mental.",
+        "autor": "Paula Vieira",
+        "temas": ["IA", "Saúde Mental", "Saúde"]
     }
 ]

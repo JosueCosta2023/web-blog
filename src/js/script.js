@@ -2,6 +2,13 @@
 // Menu hamburguer responsivo
 const hamburger = document.getElementById('hamburger');
 const nav = document.getElementById('nav');
+let posts = [];
+let currentPage = 1;
+const postsPerPage = 6;
+
+
+
+
 hamburger.addEventListener('click', () => {
     nav.classList.toggle('active');
     hamburger.classList.toggle('active');
@@ -13,7 +20,6 @@ document.querySelectorAll('.nav-link').forEach(link => {
         e.preventDefault();
         const target = link.getAttribute('href').replace('#', '');
         window.location.hash = target;
-        // Aqui você pode adicionar lógica para carregar o conteúdo SPA
     });
 });
 
@@ -76,12 +82,34 @@ function sharePost(rede, titulo) {
     window.open(shareUrl, '_blank');
 }
 
+function renderPosts() {
+    const postsSection = document.getElementById('posts');
+    const start = (currentPage - 1) * postsPerPage;
+    const end = start + postsPerPage;
+    postsSection.innerHTML = posts.slice(start, end).map(createPostCard).join('') + renderPagination();
+}
+
+function renderPagination() {
+    const totalPages = Math.ceil(posts.length / postsPerPage);
+    if (totalPages <= 1) return '';
+    let html = `<div class="pagination">`;
+    for (let i = 1; i <= totalPages; i++) {
+        html += `<button class="pagination-btn${i === currentPage ? ' active' : ''}" onclick="goToPage(${i})">${i}</button>`;
+    }
+    html += `</div>`;
+    return html;
+}
+
+window.goToPage = function(page) {
+    currentPage = page;
+    renderPosts();
+};
+
 // Carregar posts do JSON e renderizar
 fetch('./src/js/posts.json')
     .then(res => res.json())
-    .then(posts => {
-        const postsSection = document.getElementById('posts');
-        postsSection.innerHTML = posts.map(createPostCard).join('');
+    .then(data => {
+        posts = data;
+        renderPosts();
     });
-
 // ...existing code...

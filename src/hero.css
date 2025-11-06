@@ -2,7 +2,7 @@
 
 .hero {
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
     background: 
         linear-gradient(rgba(34,34,59,0.85), rgba(34,34,59,0.85)),
         url('https://preview.redd.it/some-trippy-wallpapers-generated-with-v0-8ysbf1ow0fma1.jpg?width=1080&crop=smart&auto=webp&s=39be6e70e29a7ebf40bdac11246368a4d1a86e02') center center/cover no-repeat;
