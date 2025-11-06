@@ -50,6 +50,7 @@
         padding: 1rem;
         gap: 1rem;
         display: none;
+        z-index: 999;
     }
     .nav.active {
         display: flex;
