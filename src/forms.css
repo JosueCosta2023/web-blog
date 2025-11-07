@@ -1,0 +1,74 @@
+/* Adicione ao seu GlobalStyle.css ou crie um lead-capture.css */
+.lead-capture {
+    width: 100%;
+    background: var(--color-primary);
+    color: var(--color-text-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem 2.5rem 1rem;
+}
+
+.lead-capture-content {
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+}
+
+.lead-capture-content h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.lead-capture-content p {
+    font-size: 1.05rem;
+    margin-bottom: 1.5rem;
+    color: var(--color-secondary-light);
+}
+
+.lead-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.lead-form input {
+    padding: 0.9rem 1rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    background: var(--color-surface);
+    color: var(--color-primary);
+}
+
+.lead-form input:focus {
+    border: 2px solid var(--color-accent);
+}
+
+.lead-form button {
+    padding: 0.9rem 1rem;
+    background: var(--color-accent);
+    color: var(--color-text-light);
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.lead-form button:hover {
+    background: var(--color-accent-dark);
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    .lead-capture-content {
+        max-width: 100%;
+    }
+    .lead-capture {
+        padding: 2rem 0.5rem 1.5rem 0.5rem;
+    }
+}

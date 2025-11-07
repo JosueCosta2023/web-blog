@@ -7,7 +7,12 @@ let currentPage = 1;
 const postsPerPage = 6;
 
 
-
+document.addEventListener("DOMContentLoaded", function() {
+    const yearSpan = document.getElementById('footer-year');
+    if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+    }
+});
 
 hamburger.addEventListener('click', () => {
     nav.classList.toggle('active');
@@ -26,10 +31,9 @@ document.querySelectorAll('.nav-link').forEach(link => {
 
 // ...existing code...
 
-// Função para criar o HTML de cada card de post
 function createPostCard(post) {
     return `
-    <div class="post-card">
+    <div class="post-card" onclick="window.location.href='src/pages/post.html?id=${post.id}'" style="cursor:pointer">
         <img class="post-image" src="${post.imagem}" alt="Imagem do post">
         <div class="post-content">
             <div class="post-meta">
@@ -38,22 +42,13 @@ function createPostCard(post) {
             </div>
             <h2 class="post-title">${post.titulo}</h2>
             <p class="post-summary">${post.resumo.substring(0, 120)}${post.resumo.length > 120 ? '...' : ''}</p>
-            <div class="post-tags">
-                ${post.temas.map(tag => `<span class="tag">${tag}</span>`).join('')}
-            </div>
-            <div class="post-actions">
-                <button class="share-btn" title="Compartilhar no Facebook" onclick="sharePost('facebook', '${post.titulo}')">
-                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" />
-                </button>
-                <button class="share-btn" title="Compartilhar no X" onclick="sharePost('x', '${post.titulo}')">
-                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="X" />
-                </button>
-                <button class="share-btn" title="Compartilhar no WhatsApp" onclick="sharePost('whatsapp', '${post.titulo}')">
-                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" />
-                </button>
-                <button class="share-btn" title="Compartilhar no LinkedIn" onclick="sharePost('linkedin', '${post.titulo}')">
-                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" />
-                </button>
+            <div class="post-footer">
+                <div class="post-tags">
+                    ${post.temas.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                </div>
+                <div class="post-actions">
+                    <!-- ...botões de compartilhar... -->
+                </div>
             </div>
         </div>
     </div>
