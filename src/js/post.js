@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <span class="post-author">por <a href="mailto:contato@blogai.com.br">${post.autor}</a></span>
                     </div>
                     <div class="post-full-body">
-                        ${post.texto ? post.texto.map(paragrafo => `<p>${paragrafo}</p>`).join('') : `<p>${post.resumo}</p>`}
+                        ${post.texto ? post.texto.map(paragrafo => `<p>${paragrafo}</p> <br/>`).join('') : `<p>${post.resumo}</p>`}
                     </div>
                     
                     <h4 class="share-text">Compartilhar</h4>
