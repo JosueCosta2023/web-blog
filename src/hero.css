@@ -73,21 +73,13 @@
 }
 
 .tag {
-    background: var(--color-secondary-light);
-    color: var(--color-primary);
-    padding: 0.5rem 1.2rem;
-    border-radius: 2rem;
-    font-size: 1rem;
-    font-weight: 500;
     cursor: pointer;
-    transition: background 0.2s, color 0.2s, transform 0.2s;
-    box-shadow: 0 1px 4px rgba(34,34,59,0.06);
+    transition: background 0.2s, color 0.2s;
 }
-
+.tag.active,
 .tag:hover {
     background: var(--color-accent);
     color: var(--color-text-light);
-    transform: scale(1.08);
 }
 
 /* Responsividade */

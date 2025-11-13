@@ -20,7 +20,7 @@
     "titulo": "Redes Neurais: O que são e como funcionam",
     "resumo": "Entenda o conceito de redes neurais, suas aplicações práticas e como elas revolucionam o campo da inteligência artificial.",
     "autor": "Maria Silva",
-    "temas": ["Redes Neurais", "Deep Learning", "AI"],
+    "temas": ["Redes Neurais", "Deep Learning", "IA"],
     "texto": [
       "Redes neurais são modelos computacionais inspirados no funcionamento do cérebro humano, compostos por camadas de nós chamados de neurônios artificiais. Cada neurônio recebe informações, processa e transmite para outros neurônios, formando uma rede capaz de aprender padrões complexos. Essa estrutura permite que as redes neurais sejam extremamente eficientes em tarefas como reconhecimento de imagens, processamento de linguagem natural e previsão de séries temporais.",
       "O processo de aprendizado das redes neurais ocorre por meio de algoritmos que ajustam os pesos das conexões entre os neurônios, com base em exemplos fornecidos durante o treinamento. Quanto mais dados a rede recebe, melhor ela se torna em identificar padrões e realizar previsões. O avanço do deep learning, uma subárea das redes neurais, permitiu a criação de modelos ainda mais profundos e sofisticados, capazes de superar o desempenho humano em diversas tarefas.",
