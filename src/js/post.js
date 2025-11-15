@@ -73,6 +73,22 @@ document.addEventListener("DOMContentLoaded", function () {
                             </button>
                         </div>
                     </div>
+                    ${post.relacionados && post.relacionados.length ? `
+                        <section class="post-relacionados">
+                            <h3>Recomendações</h3>
+                            <div class="relacionados-list">
+                                ${post.relacionados.map(item => `
+                                    <a class="relacionado-card" href="${item.link}" target="_blank" rel="noopener">
+                                        <img src="${item.imagem}" alt="${item.descricao}">
+                                        <div class="relacionado-info">
+                                            <h4>${item.descricao}</h4>
+                                            <p>${item.resumo}</p>
+                                        </div>
+                                    </a>
+                                `).join('')}
+                            </div>
+                        </section>
+                    ` : ''}
                 </article>
             `;
         });
