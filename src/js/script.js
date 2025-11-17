@@ -14,6 +14,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const searchInput = document.getElementById('search-input');
     const searchForm = document.getElementById('search-form');
     const tagCloud = document.getElementById('tag-cloud');
+    const currentYear = new Date().getFullYear();
+
+    document.getElementById('footer-year').textContent = currentYear
 
     if (searchInput) {
         searchInput.addEventListener('input', () => {
@@ -42,8 +45,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
-
-
 
 hamburger.addEventListener('click', () => {
     nav.classList.toggle('active');
