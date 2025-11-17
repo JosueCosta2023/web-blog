@@ -69,6 +69,12 @@ Sinta-se à vontade para sugerir melhorias, abrir issues ou enviar pull requests
 ## Desenvolvido por Josué Costa
 Com apoio de ferramentas de Inteligência Artificial para acelerar e aprimorar a codificação. 
 
+
+## Acessos
+
+- Deploy - [Online](https://josuecosta2023.github.io/web-blog/)
+- Repositorio - [Github](https://github.com/JosueCosta2023/web-blog)
+
 ## 👨‍💻 **Autor**
 
 ### Josué Ocanha Costa
